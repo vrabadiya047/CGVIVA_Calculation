@@ -2,9 +2,9 @@ import requests
 import json
 import pandas as pd
 
-api_token = '3AaCxOM8TW7jUxLecTGCUJzMwggyarKa5HWuxQjZ'
-auth_url = 'https://demo-eu-1.leanix.net/services/mtm/v1/oauth2/token'
-request_url = 'https://demo-eu-1.leanix.net/services/pathfinder/v1/graphql'
+api_token = ''
+auth_url = ''
+request_url = ''
 
 response = requests.post(auth_url, auth=('apitoken', api_token),
                          data={'grant_type': 'client_credentials'})
